@@ -1,6 +1,6 @@
 from sweepstakes import Sweepstakes
 from linkedlist import LinkedList
-
+from node import BST
 
 months = ['january', 'february', 'march', 'april', 'may', 'june'
                                                           'july', 'august', 'september', 'october', 'november',
@@ -25,3 +25,12 @@ if __name__ == '__main__':
     linked_list.append_node(60)
     linked_list.append_node(65)
     linked_list.append_node(99)
+
+bst = BST()
+
+bst.insert(2)
+bst.insert(3)
+bst.insert(6)
+bst.insert(7)
+bst.insert(12)
+bst.insert(13)
