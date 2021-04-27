@@ -7,9 +7,9 @@ class Sweepstakes:
         self.contestants = []
 
     def add_contestants(self):
-        self.contestants.push = ['michael jackson']
-        self.contestants.push = ['whitney houston']
-        self.contestants.push = ['chris brown']
-        self.contestants.push = ['mariah carey']
-        self.contestants.push = ['luther vandross']
+        self.contestants.append('michael jackson')
+        self.contestants.append('whitney houston')
+        self.contestants.append('chris brown')
+        self.contestants.append('mariah carey')
+        self.contestants.append('luther vandross')
         print(random.choice(self.contestants))
