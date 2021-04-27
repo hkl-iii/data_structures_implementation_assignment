@@ -5,6 +5,3 @@ class Celebrations:
         b_day_locs_checklist.extend(to_go_list)
         for i in b_day_locs_checklist:
             print('Element: ' + str(i) + 'Index: ' + str(b_day_locs_checklist.index(i)))
-
-
-
